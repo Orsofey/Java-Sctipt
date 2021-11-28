@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Java Script</title>
+        <link href="DOM.css" rel="stylesheet">
+    </head> <!--previousElementSibling-->
+    <body>
+        <div class="main">
+            <div class="text">
+                <div class="list">
+                    <li class="text__elem" name='about Lorem'>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, nobis!
+                    </li>
+                    <li class="text__elem elem--red" id='listItem' >
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, officiis. Maxime mollitia aliquid provident cumque, atque quaerat in nobis et!
+                    </li>
+                    <li class="text__elem elem--blue" data-item='85' >
+                        dolor, sit amet consectetur adipisicing elit. Dolorum, officiis. Maxime mollitia aliquid provident cumque, atque quaerat i
+                    </li>
+                    <li class="text__elem elem--red" data-item='30' >
+                        dolor, sit amet consectetur adipisicing elit. Dolorum, officiis. Maxime mollitia aliquid provident cumque, atque quaerat i
+                    </li>
+                    <li class="text__elem elem--red">
+                        dolor, sit amet consectetur adipisicing elit. Dolorum, officiis. Maxime mollitia aliquid provident cumque, atque quaerat i
+                    </li>
+                </div>  
+                <input class="text__input" href="https://www.google.com/">
+                    Hello, i'm input tag for check atribute
+                </input>
+                <link class="text__link" href="dz.js" value="da">
+            </div>
+        </div><!--firstElementChild-->
+        <!--Код JS пишется перед закрывающим body, чтобы страница изначально-->
+        <!--не подгружала его, а сразу выводила содержимое дизайна-->
+        <script src="DOM.js"></script> <!--lastElementChild-->
+    </body>
+    <!--nextElementSibling(null)-->
+</html> 
